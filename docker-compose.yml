@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  koa-typescript:
+    image: koa-typescript
+    build: .
+    ports:
+      - 3000:3000
+    command: yarn dev
