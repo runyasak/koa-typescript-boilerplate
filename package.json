@@ -1,5 +1,5 @@
 {
-  "name": "koa-typescript-tutorial",
+  "name": "koa-typescript-boilerplate",
   "version": "1.0.0",
   "description": "My KoaJS with TypeScript Tutorial",
   "main": "index.js",
