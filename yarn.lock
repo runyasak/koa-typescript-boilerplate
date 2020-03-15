@@ -74,6 +74,13 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
+"@types/helmet@*":
+  version "0.0.45"
+  resolved "https://registry.yarnpkg.com/@types/helmet/-/helmet-0.0.45.tgz#3eab6550a4e19acf86012596a7f1981529480fd5"
+  integrity sha512-PsLZI1NqKpXvsMZxh66xAZtpKiTeW+swY8a8LnCNSBbM/mvwU41P3BYoEqkJM9RbITPsq4uhIH0NkIsL9fzPbg==
+  dependencies:
+    "@types/express" "*"
+
 "@types/http-assert@*":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@types/http-assert/-/http-assert-1.5.1.tgz#d775e93630c2469c2f980fc27e3143240335db3b"
@@ -96,6 +103,14 @@
   resolved "https://registry.yarnpkg.com/@types/koa-compose/-/koa-compose-3.2.5.tgz#85eb2e80ac50be95f37ccf8c407c09bbe3468e9d"
   integrity sha512-B8nG/OoE1ORZqCkBVsup/AKcvjdgoHnfi4pZMn5UwAPCbhk/96xyv284eBYW8JlQbQ7zDmnpFr68I/40mFoIBQ==
   dependencies:
+    "@types/koa" "*"
+
+"@types/koa-helmet@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@types/koa-helmet/-/koa-helmet-3.1.2.tgz#b1da2eff0dac2d95886eee1f3e6bbfb539dafa4f"
+  integrity sha512-k2qE1UIFHO3MbXX527xh1KFy7sIGaCm6EG0qMiwbFtEQDGMU0QPe6cyNKbwlSHtndLzPnraJT5KylvdvZZkdKA==
+  dependencies:
+    "@types/helmet" "*"
     "@types/koa" "*"
 
 "@types/koa-logger@^3.1.1":

@@ -22,6 +22,7 @@
   "devDependencies": {
     "@types/koa": "^2.11.2",
     "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-helmet": "^3.1.2",
     "@types/koa-logger": "^3.1.1",
     "@types/koa-router": "^7.4.0",
     "@types/mongoose": "^5.7.6",
