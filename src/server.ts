@@ -1,9 +1,9 @@
 import * as Koa from 'koa'
 import * as KoaLogger from 'koa-logger'
 
-import { dbConnect } from './db'
-import { publicRouter } from './publicRoutes'
-import { privateRouter } from './privateRoutes'
+import { dbConnect } from '@/db'
+import { publicRouter } from '@/publicRoutes'
+import { privateRouter } from '@/privateRoutes'
 import * as BodyParser from 'koa-bodyparser'
 
 const app: Koa = new Koa()

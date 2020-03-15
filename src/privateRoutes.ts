@@ -1,6 +1,6 @@
 import * as Router from 'koa-router'
 import type { Context } from 'koa'
-import user from './models/user'
+import user from '@/models/user'
 
 const privateRouter: Router = new Router()
 

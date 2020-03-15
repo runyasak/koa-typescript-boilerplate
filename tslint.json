@@ -1,10 +1,13 @@
 {
   "extends": [
-    "tslint-config-airbnb"
+    "tslint-microsoft-contrib/recommended"
   ],
   "rules": {
     "semicolon": [true, "never"],
     "trailing-comma": [true, "never"],
-    "align": false
+    "align": false,
+    "import-name": false,
+    "export-name": false,
+    "no-cookies": false
   }
 }

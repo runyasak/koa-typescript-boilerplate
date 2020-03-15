@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
-      "module": "commonjs",
-      "target": "es2017",
-      "noImplicitAny": true,
-      "outDir": "./dist",
-      "sourceMap": true
+    "module": "commonjs",
+    "target": "es2017",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "baseUrl": ".", // This must be specified if "paths" is.
+    "paths": {
+      "@/*": ["src/*"] // This mapping is relative to "baseUrl"
+    }
   },
   "include": [
-      "./src/**/*"
+    "./src/**/*"
   ]
 }
