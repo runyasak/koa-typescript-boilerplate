@@ -8,15 +8,12 @@ const {
 } = process.env
 
 const dbConnect = (): Promise<typeof mongoose> => mongoose
-  .connect(
-    uri,
-    {
-      dbName,
-      user,
-      pass,
-      useNewUrlParser: true,
-      useUnifiedTopology: true
-    }
-  )
+  .connect(uri, {
+    dbName,
+    user,
+    pass,
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  })
 
 export { dbConnect }

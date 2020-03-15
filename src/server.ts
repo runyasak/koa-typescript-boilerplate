@@ -16,7 +16,7 @@ dbConnect().then(() => {
   app.use(privateRouter.routes()).use(privateRouter.allowedMethods())
 
   app.listen(3000)
-}).catch(error => {
+}).catch((error) => {
   console.log('MongoDB connection error:', error)
 })
 
