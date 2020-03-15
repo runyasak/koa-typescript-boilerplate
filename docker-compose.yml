@@ -9,3 +9,8 @@ services:
     ports:
       - 3000:3000
     command: yarn dev
+    environment:
+      MONGODB_URI: <YOUR_MONGODB_URI>
+      MONGODB_USER: <YOUR_MONGODB_USER>
+      MONGODB_PASSWORD: <YOUR_MONGODB_PASSWORD>
+      MONGODB_DBNAME: <YOUR_MONGODB_DBNAME>
