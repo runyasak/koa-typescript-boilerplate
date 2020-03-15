@@ -1,17 +1,12 @@
 import * as Koa from 'koa'
-import * as Router from 'koa-router'
 import * as KoaLogger from 'koa-logger'
 
+import { publicRouter } from './publicRoutes'
+
 const app = new Koa()
-const router = new Router()
 
 app.use(KoaLogger())
-
-router.get('/*', async (ctx) => {
-  ctx.body = 'Hello World!'
-})
-
-app.use(router.routes())
+app.use(publicRouter.routes()).use(publicRouter.allowedMethods())
 
 app.listen(3000)
 
