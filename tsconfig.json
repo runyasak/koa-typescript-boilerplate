@@ -4,11 +4,7 @@
     "target": "es2017",
     "noImplicitAny": true,
     "outDir": "./dist",
-    "sourceMap": true,
-    "baseUrl": ".", // This must be specified if "paths" is.
-    "paths": {
-      "@/*": ["src/*"] // This mapping is relative to "baseUrl"
-    }
+    "sourceMap": true
   },
   "include": [
     "./src/**/*"

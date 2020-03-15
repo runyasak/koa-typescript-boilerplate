@@ -8,6 +8,8 @@
     "align": false,
     "import-name": false,
     "export-name": false,
-    "no-cookies": false
+    "no-cookies": false,
+    "function-name": false,
+    "no-relative-imports": false
   }
 }
